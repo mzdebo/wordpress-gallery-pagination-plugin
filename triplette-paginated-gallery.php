@@ -25,6 +25,16 @@ License: GPL2
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+/*
+<style>
+ul.pagination.pagination-sm {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6ch, 1fr));
+    grid-gap: 1rem;
+}
+</style>
+*/
+
 require_once(dirname(__FILE__) . '/options.php');
 
 if (get_option('use_gallery_shortcode')) {
